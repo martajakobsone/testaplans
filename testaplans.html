@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html>
+    <body>
+        <input type="button" onclick="samazini()" value="Samazinat">
+        <input type="text" id="rezultats">
+        <script> 
+        function samazini (){ 
+            document.getElementById("rezultats").value-- ;
+        }
+        </script>
+        <input type="button" onclick="palielini()" value="Palielinat">
+        <script>
+            function palielini() {
+                document.getElementById("rezultats").value++ ;
+            }
+        </script>
+    </body>
+</html>
